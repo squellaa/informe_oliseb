@@ -1,6 +1,6 @@
 function Marco() {
   return (
-    <section className="bg-white rounded-2xl shadow p-8 mb-8">
+    <section className="bg-white rounded-3xl shadow-xl p-8 mb-8 border border-slate-200 transition duration-300 hover:-translate-y-1 hover:shadow-2xl">
       <h2 className="text-2xl font-semibold text-slate-900 mb-4">Marco normativo aplicable</h2>
       <ol className="list-decimal list-inside text-slate-600 space-y-2 mb-6">
         <li>Ley 21.459 (Chile) - Regulación de delitos informáticos y seguridad de la información.</li>

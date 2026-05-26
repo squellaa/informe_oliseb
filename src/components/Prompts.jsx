@@ -1,12 +1,16 @@
+import { MessageSquare } from 'lucide-react'
+
 function Prompts() {
   return (
-    <section className="bg-white rounded-2xl shadow p-8 mb-8">
-      <h2 className="text-2xl font-semibold text-slate-900 mb-4">Bitácora de instrucciones</h2>
+    <section className="bg-white rounded-3xl shadow-xl p-8 mb-8 border border-slate-200 transition duration-300 hover:-translate-y-1 hover:shadow-2xl">
+      <div className="flex items-center gap-3 mb-6">
+        <MessageSquare className="h-8 w-8 text-slate-700" />
+        <h2 className="text-2xl font-semibold text-slate-900">Bitácora de prompts</h2>
+      </div>
       <div className="space-y-4 text-slate-600 leading-relaxed">
-        <p>El análisis se basó en instrucciones específicas sobre el caso Mega-hackeo a Equifax de 2017 y las leyes chilenas 21.459 y 19.628.</p>
-        <p>Se pidió explícitamente el uso de Tailwind CSS y Lucide Icons para los componentes visuales de la aplicación.</p>
-        <p>El contenido se estructuró en componentes React independientes para cada sección del informe.</p>
-        <p>Reflexión: el agente trabajó integrado en VS Code, leyendo archivos locales y generando el contenido directamente en el proyecto.</p>
+        <p>Se solicitó generar contenido de cada archivo Markdown en `docs_oliseb` y componentes React en `src/components/` usando Tailwind CSS y Lucide Icons para un dashboard profesional.</p>
+        <p>Se corrigió y alineó el contenido con la rúbrica: normas justificadas con hechos, artículos legales citados con numeración, tabla comparativa con ejes, responsabilidades con normas citadas y derechos ARCO con cita textual de Ley 19.628.</p>
+        <p>La aplicación ahora refleja fielmente el contenido de los archivos `.md` y la bitácora registra el prompt maestro usado para la generación.</p>
       </div>
     </section>
   )

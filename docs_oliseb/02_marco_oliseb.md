@@ -2,13 +2,14 @@
 
 1. Ley 21.459 (Chile) - Regulación de delitos informáticos y seguridad de la información.
 2. Ley 19.628 (Chile) - Protección de la vida privada y tratamiento de datos personales.
-3. GDPR (Europa) - Reglamento general de protección de datos de la Unión Europea.
-4. SOX (EE.UU.) - Ley Sarbanes-Oxley, exigencias de control interno para empresas públicas.
+3. GDPR (Europa) - Reglamento General de Protección de Datos.
+4. SOX (EE.UU.) - Ley Sarbanes-Oxley sobre control interno y reporte de eventos relevantes.
 
 ## Justificación de aplicación
 
-- Ley 21.459: Equifax sufrió un acceso no autorizado a sus sistemas, lo que encaja con los delitos informáticos regulados por esta ley chilena.
-- Ley 19.628: la filtración afectó datos personales sensibles, por lo que aplican principios de protección de datos y responsabilidades por tratamiento indebido.
-- GDPR: Equifax maneja datos de individuos en Europa y, por tanto, debe cumplir con los requisitos de protección de datos personales y notificación de brechas.
+- Ley 21.459: se aplica al acceso no autorizado a los sistemas de Equifax por la vulnerabilidad en Apache Struts. Este hecho concreto encaja con las conductas de intrusión y abuso de redes que regula la ley chilena.
+- Ley 19.628: la filtración masiva de datos personales sensibles de 147 millones de personas vulnera los principios de seguridad, calidad y finalidad del tratamiento establecidos en esta norma.
+- GDPR: como Equifax procesa datos de ciudadanos europeos, está obligada a cumplir con la protección transfronteriza de datos y la notificación de brechas de seguridad.
 
-Además, el fallo en parches de seguridad y controles técnicos se vincula con estándares internacionales de ciberseguridad, lo que refuerza la relevancia de marcos como la GDPR y SOX en la relación de gobierno corporativo y protección de datos.
+SOX es relevante para el análisis porque Equifax es una entidad sujeta a exigencias de control interno y gobierno corporativo en Estados Unidos; la falla en parches y en gestión de riesgos muestra debilidades que este marco busca corregir.
+
