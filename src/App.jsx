@@ -1,4 +1,12 @@
 import { Shield, BookOpen } from 'lucide-react'
+import Resumen from './components/Resumen'
+import Marco from './components/Marco'
+import Delitos from './components/Delitos'
+import Comparacion from './components/Comparacion'
+import Responsabilidades from './components/Responsabilidades'
+import Datos from './components/Datos'
+import Conclusiones from './components/Conclusiones'
+import Prompts from './components/Prompts'
 
 function App() {
   return (
@@ -14,15 +22,24 @@ function App() {
       </header>
 
       <main className="flex-1 max-w-4xl mx-auto px-6 py-12">
-        <div className="bg-white rounded-lg shadow p-8">
+        <div className="bg-white rounded-lg shadow p-8 mb-8">
           <div className="flex items-center gap-3 mb-4">
             <BookOpen className="text-slate-700" />
             <h2 className="text-xl font-semibold text-slate-800">Bienvenida</h2>
           </div>
           <p className="text-slate-600 leading-relaxed">
-            Este sitio contiene el análisis legal del caso asignado. Las secciones se irán incorporando como componentes individuales en el menú superior.
+            Este sitio presenta el análisis legal del caso Equifax 2017 en secciones independientes. Cada componente resume un aspecto del marco normativo, los delitos, las responsabilidades y las conclusiones.
           </p>
         </div>
+
+        <Resumen />
+        <Marco />
+        <Delitos />
+        <Comparacion />
+        <Responsabilidades />
+        <Datos />
+        <Conclusiones />
+        <Prompts />
       </main>
 
       <footer className="bg-slate-100 text-slate-600 text-sm py-4 px-6">
